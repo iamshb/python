@@ -2,6 +2,9 @@ from pytube import YouTube
 import subprocess
 import os
 
+# you should make directory 'youtube'
+# you should put ffmpeg file into 'youtube' directory
+
 download_path = './youtube'
 high_resolution_video_index = 0
 
