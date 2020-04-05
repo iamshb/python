@@ -1,3 +1,5 @@
+import keyword
+
 _myname = 'shihshin'
 my_name = '신신'
 MyName2 = 'Shin Shin'
@@ -6,3 +8,4 @@ Counter = 2
 
 print(MyName2)
 print(counter)
+print(keyword.kwlist)
