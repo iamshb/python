@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 
+# selector reference
+# https://www.w3schools.com/cssref/trysel.asp
+
 html = """
 <html>
 <body>
