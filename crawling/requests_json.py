@@ -4,6 +4,11 @@ import json
 s = requests.Session()
 r = s.get('https://jsonplaceholder.typicode.com/albums')
 print(r.json())
+print(r.content)
+print(r.encoding)
+print(r.raw)
+print(r.status_code)
+print(r.ok)
 
 s.close()
 
